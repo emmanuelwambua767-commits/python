@@ -15,7 +15,6 @@ last_name=' Do,e'
 full_name=first_name+last_name
 full_name=full_name.replace('.','')
 full_name=full_name.replace(',','')
-print(full_name)
 print(full_name.strip())
 r='["E","W","C"]'
 clean_r=r.replace("[","").replace("]","").replace('"',"").replace(",","")

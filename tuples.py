@@ -1,0 +1,13 @@
+days_of_the_week=('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday')
+print(type(days_of_the_week))
+print(days_of_the_week[1])
+print(days_of_the_week[2:4])
+print(days_of_the_week[6])
+print(days_of_the_week[4:7])
+days_of_the_week=list(days_of_the_week)
+print(type(days_of_the_week))
+days_of_the_week[0]='Sun'
+days_of_the_week.append('jan')
+print(days_of_the_week)
+days_of_the_week=tuple(days_of_the_week)
+print(days_of_the_week)
